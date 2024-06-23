@@ -11,7 +11,7 @@ File Information
 * Fine-tuned Meta-Llama-2-7b on [satpalsr/chatml-translation-filter](https://huggingface.co/datasets/satpalsr/chatml-translation-filter) using Unsloth-AI as 4 bit model 
 * Trained and compared accuracy on varying number of steps using validation part of the dataset
 | Steps | Accuracy |
-|-------|----------|
+|-------|-------|
 | 60 | 63.888% |
 | 100 | 66.975% |
 | 150 | 72.222% |
