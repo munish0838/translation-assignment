@@ -17,6 +17,9 @@ File Information
 | 150   | 72.222%  |
 | 200   | 69.135%  |
 
+Note: 
+* Some outputs had multiple responses, which were same in some cases, while some cases had both true and false in output response. The accuracy was calculated once with presence of actual value in the output and once with considering the first response only.
+
 ## Suggestions
 * Increasing training steps led to increase in accuracy so model can be trained for more steps
 * Use of one-shot or other techniques to provide examples to model may improve model performance
